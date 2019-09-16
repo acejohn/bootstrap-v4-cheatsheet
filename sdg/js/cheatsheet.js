@@ -288,4 +288,8 @@ $(function(){
 
         e.preventDefault();
     });
+
+    $(document).ready(function(){
+        $('#mytabs a[href="#customlayouts"]').tab('show') 
+    });    
 });

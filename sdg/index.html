@@ -30,12 +30,16 @@
          <!--</span>-->
          <!--</div>-->
          <div class="cs-subheader">
-               <nav class="nav">
-                     <a class="nav-link active" href="#!">Components</a>
-                     <a class="nav-link" href="#!">Custom Modules</a>
-                     <a class="nav-link" href="#!">Disabled</a>
+               <nav class="nav" id="mytabs">
+                     <a class="nav-link active" data-toggle="tab" href="#cheatsheet">Cheat Sheet</a>
+                     <a class="nav-link" data-toggle="tab" href="#customlayouts">Custom Layouts</a>
+                     <a class="nav-link" data-toggle="tab" href="#documentation">Documentation</a>
                    </nav>
          </div>
+
+
+      <div class="tab-content">
+         <div class="tab-pane fade in active" id="cheatsheet">
          <div class="container cheatsheet">
             <div class="collapse-buttons btn-group float-left">
                <a id="show-all" class="btn btn-outline-light btn-ht-xs" href="#">Expand all</a>
@@ -8303,7 +8307,108 @@
                   <!--<div class="test"></div>-->
                </div>
             </div>
+         
          </div>
+         </div>
+         <div id="customlayouts" class="tab-pane fade">
+            <div class="container cheatsheet"> 
+                  <div class="row">
+                     <div class="col-lg-4">
+                        <div class="category">
+                           <h3 class="category-heading">Forms</h3>
+                           <ul>
+                              <li class="item-element">
+                                 <a href="#" id="item-login-form" class="item-link">Login</a>                              
+                              </li>
+                              <li class="item-element">
+                                 <a href="#" id="item-login-form" class="item-link">Register</a>
+                              </li>
+                              <li class="item-element">
+                                 <a href="#" id="item-login-form" class="item-link">Forgot Password</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-lg-4">
+                           <div class="category">
+                              <h3 class="category-heading">Modal</h3>
+                              <ul>
+                                 <li class="item-element">
+                                       <a href="#" id="item-login-form" class="item-link">Success</a>
+                                 </li>
+                                 <li class="item-element">
+                                       <a href="#" id="item-login-form" class="item-link">Failed</a>
+                                 </li>
+                                 <li class="item-element">
+                                       <a href="#" id="item-login-form" class="item-link">Error</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="col-lg-4">
+                              <div class="category">
+                                 <h3 class="category-heading">Table</h3>
+                                 <ul>
+                                    <li class="item-element">
+                                       <a href="#" id="item-login-form" class="item-link">Device </a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                  </div>
+                  <div class="row">
+                        <div class="col-lg-4">
+                           <div class="category">
+                              <h3 class="category-heading">Layouts</h3>
+                              <ul>
+                                 <li class="item-element">
+                                    <a href="#" id="item-login-form" class="item-link">Banner</a>                              
+                                 </li>
+                                 <li class="item-element">
+                                    <a href="#" id="item-login-form" class="item-link">Sidebar</a>
+                                 </li>
+                                 <li class="item-element">
+                                    <a href="#" id="item-login-form" class="item-link">Navigation</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="col-lg-4">
+                              <!-- <div class="category">
+                                 <h3 class="category-heading">Modal</h3>
+                                 <ul>
+                                    <li class="item-element">
+                                          <a href="#" id="item-login-form" class="item-link">Success</a>
+                                    </li>
+                                    <li class="item-element">
+                                          <a href="#" id="item-login-form" class="item-link">Failed</a>
+                                    </li>
+                                    <li class="item-element">
+                                          <a href="#" id="item-login-form" class="item-link">Error</a>
+                                    </li>
+                                 </ul>
+                              </div> -->
+                           </div>
+                           <div class="col-lg-4">
+                                 <!-- <div class="category">
+                                    <h3 class="category-heading">Table</h3>
+                                    <ul>
+                                       <li class="item-element">
+                                          <a href="#" id="item-login-form" class="item-link">Device </a>
+                                       </li>
+                                    </ul>
+                                 </div> -->
+                              </div>
+                     </div>
+            </div>            
+          </div>
+          <div id="documentation" class="tab-pane fade">
+               <div class="container cheatsheet">
+                     <h3>Menu 2</h3>
+                     <p>Some content in menu 1.</p>
+               </div>    
+          </div>
+      </div>
       </div>
       <!--Slap all hidden-root-code stuff on to this for modals and things-->
       <!-- Modal -->
