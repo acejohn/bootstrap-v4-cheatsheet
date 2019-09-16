@@ -203,7 +203,7 @@ customization inside this file
   top: 0px; }
 
 body {
-  background: #222640;
+  background: #100e17;
   font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
   font-weight: 400; }
 
@@ -220,7 +220,8 @@ body {
   padding: 30px;
   min-height: 165px;
   color: #fff;
-  background: #056CF2; }
+  background: #100e17; 
+  background-image: url('../images/gplay.png')}
   .cs-header .ht-logo {
     width: 200px; }
 
@@ -231,8 +232,8 @@ body {
 
 .cs-header-title {
   margin-top: auto;
-  font-weight: 600;
-  font-size: 40px; }
+  font-weight: 300;
+  font-size: 55px; }
 
 .cs-header-subline {
   opacity: .39;
@@ -241,23 +242,25 @@ body {
   font-size: 20px; }
 
 .cs-subheader {
-  min-height: 60px;
+  /* min-height: 60px; */
   display: flex;
-  padding: 20px;
   font-weight: 600;
-  background-color: #0583F2;
+  background-color: #15131d;
   align-items: center;
   justify-content: center;
-  color: #4f4f4f; }
+  color: #100e17; }
   .cs-subheader a {
-    text-decoration: underline; }
+    /* text-decoration: underline; */} 
   .cs-subheader i {
     margin-right: 20px;
     font-size: 23px; }
   .cs-subheader a {
-    color: #4f4f4f; }
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100; }
     .cs-subheader a:focus, .cs-subheader a:hover, .cs-subheader a:active {
-      color: #484848; }
+      color: #ffffff;
+      background: #3f3e48; }
 
 .cheatsheet {
   margin-top: 60px; }
@@ -273,12 +276,13 @@ body {
   .cheatsheet .category {
     margin-bottom: 1rem; }
     .cheatsheet .category h3.category-heading {
-      background: #056CF2;
+      background: #3f3e48;
       margin-bottom: 0;
       padding: 10px;
       font-size: 20px;
       /* border-radius: 3px 3px 0 0; */
-      color: white; }
+      color: white; 
+      font-weight: 100; }
     .cheatsheet .category .doc-link {
       color: white; }
     .cheatsheet .category ul {
@@ -342,7 +346,7 @@ body {
 
 .showcase {
   z-index: 1020;
-  background-color: #0583F2;
+  background-color: #dcdcdc;
   color: white;
   position: fixed;
   overflow-y: auto;
@@ -374,7 +378,9 @@ body {
       color: white; }
   .showcase h3.showcase-title {
     margin-top: 15px;
-    margin-left: 15px; }
+    margin-left: 15px; 
+    font-weight: 200; 
+    color: #100e17;}
   .showcase .navigation {
     text-align: center;
     /*background-color:#2d2d2d;*/
@@ -387,7 +393,7 @@ body {
     .showcase .navigation .arrow-nav {
       display: inline-block;
       padding: 5px 25px;
-      border-radius: 8px;
+      /* border-radius: 8px; */
       margin-bottom: 5px;
       background-color: #38383e;
       color: #fff;
